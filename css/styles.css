@@ -1,0 +1,222 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет ссылок футера rgba(255, 255, 255, 0.6) */
+/* цвет заголовка первого уровня #FFFFFF */
+/* цвет акцента #2196F3 */
+/* цвет бекграунда #FFFFFF */
+/* цвет бекграунда секции "герой" #2F303A */
+/* цвет бекграунда секции 'наша команда' #F5F4FA */
+
+/* -------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+}
+li,
+h2,
+p {
+  margin: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+}
+
+/* хеадер */
+
+.page-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+.nav-list .nav-link.current {
+  color: #2196f3;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+.address-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #2196f3;
+}
+.logo {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+/* контент главной страницы*/
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-section .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+.hero-section .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.features-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.features-list .text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.example-section .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-section {
+  background: #f5f4fa;
+}
+.team-section .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-list .subject {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-list .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* контент страницы портфолио */
+
+.port-list .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.port-list .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.filter-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+/* футер */
+.footer {
+  /* height: 252px; */
+  background: #2f303a;
+}
+.footer .location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer .contact {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+}
