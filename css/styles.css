@@ -31,8 +31,7 @@ body {
   /* outline: 2px solid tomato; */
 }
 img {
-  margin: 0;
-  padding: 0;
+  display: block;
 }
 /* хеадер */
 
