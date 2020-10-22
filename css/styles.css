@@ -251,8 +251,8 @@ img {
 }
 /* контент страницы портфолио */
 .portfolio-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-title {
   display: none;
@@ -315,23 +315,26 @@ img {
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
 }
+.img-description {
+  padding: 20px 24px;
+}
 .port-list .title {
-  margin: 20px 24px 4px 24px;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin: 0 0 4px 0;
 }
 .port-list .text {
-  margin: 0 24px 20px 24px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0;
 }
 
 /* футер */
